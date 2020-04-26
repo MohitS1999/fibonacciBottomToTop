@@ -18,6 +18,7 @@ public class BottomTopDP{
 		}
 		return dp[n];
 	}
+	//Space Optimization
 	public static int bottomToTopspc(int n){
 		if (n==0 || n==1)
 			return n;
